@@ -1,0 +1,25 @@
+.cartContainer{
+    flex: 1;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+    .heading{
+        color: hsl(12, 74%, 47%);
+    }
+}
+.emptyCartContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 25px;
+        .emptyCartQuote{
+            color: hsl(12, 20%, 44%);
+        }
+}
+@media only screen and (max-width: 600px) {
+    .cartContainer {
+      flex: none;
+    }
+  }
+
