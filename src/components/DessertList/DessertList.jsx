@@ -4,7 +4,7 @@ import "@fontsource/red-hat-text/600.css"
 import "@fontsource/red-hat-text/700.css"
 import  Desserts  from "../Dessert/Desserts.jsx"; 
 import data from "../../data.json";
-import "../DessertList/DessertList.css"
+import "../DessertList/dessertList.css"
 
 
 const DessertList = () => {
