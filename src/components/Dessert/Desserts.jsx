@@ -36,14 +36,14 @@ const Desserts = ({product}) => {
               <div
                 className="circle"
               >
-                <button className='minusBtn' onClick={() => decrementQuantity(product.name)}><img src="./src/assets/icon-decrement-quantity.svg" alt="minus" className="icon" /></button> 
+                <button className='minusBtn' onClick={() => decrementQuantity(product.name)}><img src="./assets/icon-decrement-quantity.svg" alt="minus" className="icon" /></button> 
               </div>
               <p className="quantity">
                 {getCartItem(product.name).quantity}
               </p>
               <div
                 className="circle">
-              <button className='plusBtn' onClick={() => incrementQuantity(product.name)}><img src="./src/assets/icon-increment-quantity.svg" alt="add" className="icon" /></button>
+              <button className='plusBtn' onClick={() => incrementQuantity(product.name)}><img src="./assets/icon-increment-quantity.svg" alt="add" className="icon" /></button>
               </div>
             </div>
           </div>
